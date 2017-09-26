@@ -1,0 +1,49 @@
+/*INPUT-OUTPUT*/
+#label  {
+	text-align: center;
+	margin-bottom: 5px;
+}
+#radios {
+	margin: auto;
+}
+#radios td {
+	padding-right: 10px;
+}
+#output {
+    display: flex;
+    flex-flow: column;
+	margin-top: 20px;
+	padding: 5px;
+	min-height: 400px;
+	border-radius: var(--main-border-radius);
+	border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.loading-icon {
+    align-items: center;
+    justify-content: center;  
+}
+.fa-spinner:before {
+	font-size: 48px;
+	color: var(--main-color-2);
+	margin: 10px 0px 10px 0px;
+}
+
+/*PHP*/
+.r_box {
+    margin: 4px;
+    padding: 10px 10px 10px 15px;
+    border-radius: var(--main-border-radius);
+    background: rgb(240, 240, 240);
+    flex:1;
+}
+.headline {
+	margin: 0px;
+	text-align: justify;
+	font-weight: normal;
+}
+.fa-external-link, .r_link, .r_link:visited {
+	color: #006621
+}
