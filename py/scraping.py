@@ -35,13 +35,7 @@ def getTime(timestamp):
     days = since.days
     hours = int(since.seconds / (60 * 60))
     mins = int(since.seconds / 60)
-    if days > 365:
-        years = int(days / 365)
-        if years == 1:
-            time = "1 year ago"
-        else:
-            time = years + " years ago"
-    elif days > 0 and days < 365:
+    if days > 0:
         if days == 1:
             time = "1 day ago"
         else:
@@ -62,6 +56,4 @@ def getTime(timestamp):
 
 if __name__ == "__main__":
     reddit = login()
-    #print(extract("java"))
-    #input()
     print(extract(sys.argv[1]))
