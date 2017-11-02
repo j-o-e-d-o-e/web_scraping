@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 
-__author__ = "Joe Doe"
-
 import praw, json, sys
 from datetime import datetime
 
 def login():
+    #for registration, go to: https://www.reddit.com/prefs/apps/
     username = "XXX" 
     client_id = "XXX"
     client_secret = "XXX"
