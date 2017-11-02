@@ -1,15 +1,21 @@
 #!/usr/bin/env python
 
-__author__ = "Joe Doe"
-
 import praw, json, sys
 from datetime import datetime
 
 def login():
+<<<<<<< HEAD
     username = "bot____"
     client_id = "D2FBAGZaVtcp2Q"
     client_secret = "0Zb3cPenVReryG_dwBPurtIrHzM"
     user_agent = "joedoe"
+=======
+    #for registration, go to: https://www.reddit.com/prefs/apps/
+    username = "XXX" 
+    client_id = "XXX"
+    client_secret = "XXX"
+    user_agent = "XXX"
+>>>>>>> 341d2df776765759069e2a669e874386b822543e
 
     return praw.Reddit(username = username,
                 client_id = client_id,
