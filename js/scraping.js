@@ -2,7 +2,7 @@ var subreddits = ["java", "learnjava", "programming", "learnprogramming", "pytho
 var input;
 
 $(function(){	
-	$("#r_form").handleInput(function() {
+	$("#r_form").change(function() {
 		if(subreddits.indexOf($(":checked").val()) != -1){
             input = $(":checked").val();
         }
@@ -27,5 +27,5 @@ $(function(){
 });
 
 function startScraper(){
-	$("#r_form").trigger("handleInput");
+	$("#r_form").trigger("change");
 }
