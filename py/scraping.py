@@ -6,10 +6,10 @@ import praw, json, sys
 from datetime import datetime
 
 def login():
-    username = "XXX" 
-    client_id = "XXX"
-    client_secret = "XXX"
-    user_agent = "XXX"
+    username = "bot____"
+    client_id = "D2FBAGZaVtcp2Q"
+    client_secret = "0Zb3cPenVReryG_dwBPurtIrHzM"
+    user_agent = "joedoe"
 
     return praw.Reddit(username = username,
                 client_id = client_id,
