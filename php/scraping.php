@@ -16,7 +16,7 @@ if (isset($res)) {
         echo "</section>";
     }
 } else {
-    echo "Login details need to be added to scraping.py." . "<br>";
+    echo "Login details need to be added in scraping.py." . "<br>";
     echo "For registration, go to: <a href='https://www.reddit.com/prefs/apps/'>https://www.reddit.com/prefs/apps/</a>";
 }
 ?>
