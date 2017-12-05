@@ -5,7 +5,7 @@
             web scraping
         </title>
         <meta charset="UTF-8">
-        <meta name="description" content="software development projects: web scraping"/>
+        <meta name="description" content="web scraping"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link rel="stylesheet" href="css/scraping.css" type="text/css">
