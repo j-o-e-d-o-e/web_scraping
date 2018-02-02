@@ -28,7 +28,7 @@ def extract(sub_name):
     return json.dumps(submissions)
 
 def getTime(timestamp):
-    date = datetime.utcfromtimestamp(timestamp)
+    date = datetime.fromtimestamp(timestamp)
     now = datetime.now()
     since = now - date
     days = since.days
